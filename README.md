@@ -1,5 +1,7 @@
 # PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
 
+This fork is to make the library compatible with Swift Package Manager.
+
 Multi selection is now possible in PHPicker introduced in iOS 14. For more info, see https://developer.apple.com/videos/play/wwdc2020/10652/. This project should only be used to support multiple selection on iOS 13 and below.
 
 # QBImagePicker
