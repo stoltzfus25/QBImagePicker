@@ -1,7 +1,5 @@
 # QBImagePicker
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-
 A clone of UIImagePickerController with multiple selection support.
 
 ![screenshot01.png](screenshot01.png)
@@ -41,20 +39,21 @@ A clone of UIImagePickerController with multiple selection support.
 
 ## Installation
 
-### CocoaPods
+### Swift Package Manager
 
-1. Add `pod "QBImagePickerController"` to Podfile
-2. Run `pod install`
-3. Add `#import <QBImagePickerController/QBImagePickerController.h>` to your code
+You can use the ![Swift Package Manager](https://swift.org/package-manager/) to install `QBImagePicker` by adding the proper description to your `Package.swift` file:
 
+```swift
+// swift-tools-version:4.0
+import PackageDescription
 
-### Carthage
-
-1. Add `github "questbeat/QBImagePicker"` to Cartfile
-2. Run `carthage update`
-3. Add `#import <QBImagePicker/QBImagePicker.h>` to your code
-
-
+let package = Package(
+    name: "YOUR_PROJECT_NAME",
+    dependencies: [
+        .package(url: "https://github.com/stoltzfus25/QBImagePicker.git", from: "4.0.0"),
+    ]
+)
+```
 
 ## Usage
 
