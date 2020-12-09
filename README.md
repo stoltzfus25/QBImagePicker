@@ -41,7 +41,7 @@ A clone of UIImagePickerController with multiple selection support.
 
 ### Swift Package Manager
 
-You can use the ![Swift Package Manager](https://swift.org/package-manager/) to install `QBImagePicker` by adding the proper description to your `Package.swift` file:
+You can use the [Swift Package Manager](https://swift.org/package-manager/) to install `QBImagePicker` by adding the proper description to your `Package.swift` file:
 
 ```swift
 // swift-tools-version:4.0
